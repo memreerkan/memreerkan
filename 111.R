@@ -1,3 +1,7 @@
-abc <- c("a","b","c")
-
-
+install.packages("tidyverse")
+install.packages("dplyr")
+install.packages("gapminder")
+library(tidyverse)
+library(dplyr)
+library(gapminder)
+head(gapminder)
